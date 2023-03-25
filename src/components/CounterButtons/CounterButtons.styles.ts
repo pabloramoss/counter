@@ -1,10 +1,19 @@
 import { StyleSheet } from "react-native"
 
 export const styles = StyleSheet.create({
-  button: {
+  buttonIncrement: {
     backgroundColor: '#333',
     borderRadius: 30,
-    width: 200,
+    width: 300,
+    height: 150,
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin: 10,
+  },
+  buttonDecrement: {
+    backgroundColor: '#333',
+    borderRadius: 30,
+    width: 300,
     height: 60,
     justifyContent: 'center',
     alignItems: 'center',
@@ -15,7 +24,22 @@ export const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: 'bold',
   },
+  buttonBig: {
+    width: 400,
+  },
+  buttonSmall: {
+    width: 200,
+  },
   buttonsContainer: {
     flexDirection: 'column',
+  },
+  containerVertical: {
+    flexDirection: 'column',
+  },
+  containerHorizontal: {
+    flexDirection: 'row',
+  },
+  containerHorizontalReverse: {
+    flexDirection: 'row-reverse',
   },
 });

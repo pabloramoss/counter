@@ -3,13 +3,12 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
 
   navbar: {
+    marginTop: 20,
     height: 60,
     backgroundColor: '#333',
-    justifyContent: 'center',
+    justifyContent: 'space-between',
     alignItems: 'center',
-  },
-  menuButton: {
-    position: 'absolute',
-    left: 20,
+    flexDirection: 'row',
+    paddingHorizontal: 30,
   },
 });
