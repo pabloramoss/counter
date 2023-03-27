@@ -24,19 +24,6 @@ const CounterButtons: React.FC<Props> = ({ position, increment, decrement }) => 
     }
   })();
 
-  // const buttonsStyles = (() => {
-  //   switch (position) {
-  //     case 'horizontal':
-  //       return styles.buttonsHorizontal;
-  //     case 'horizontal-reverse':
-  //       return styles.buttonsHorizontalReverse;
-  //     case 'vertical':
-  //       return styles.buttonsVertical;
-  //     default:
-  //       return styles.buttonsVertical;
-  //   }
-  // })();
-
   return (
     <View style={containerStyles}>
       <TouchableOpacity style={styles.buttonIncrement} activeOpacity={0.6} onPress={increment}>

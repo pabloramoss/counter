@@ -42,4 +42,16 @@ export const styles = StyleSheet.create({
   containerHorizontalReverse: {
     flexDirection: 'row-reverse',
   },
+  buttonIncrementHorizontal: {
+    backgroundColor: '#333',
+    borderRadius: 30,
+    width: 150,
+    height: 300,
+  },
+  buttonDecrementHorizontal: {
+    backgroundColor: '#333',
+    borderRadius: 30,
+    width: 60,
+    height: 300,
+  },
 });
