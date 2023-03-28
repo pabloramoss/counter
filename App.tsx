@@ -7,7 +7,6 @@ export type ButtonPosition = 'vertical' | 'horizontal' | 'horizontal-reverse' | 
 
 const positions = ['vertical', 'horizontal', 'horizontal-reverse', 'vertical-equals', 'horizontal-equals', 'horizontal-reverse-equals'];
 
-
 export default function App() {
   const [count, setCount] = useState(0);
   const [buttonPosition, setButtonPosition] = useState<ButtonPosition>('vertical');

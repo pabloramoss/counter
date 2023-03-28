@@ -11,18 +11,18 @@ interface Props {
 
 const CounterButtons: React.FC<Props> = ({ position, increment, decrement }) => {
   
-  const containerStyles = (() => {
-    switch (position) {
-      case 'horizontal':
-        return styles.containerHorizontal;
-      case 'horizontal-reverse':
-        return styles.containerHorizontalReverse;
-      case 'vertical':
-        return styles.containerVertical;
-      default:
-        return styles.containerVertical;
-    }
-  })();
+  // const containerStyles = (() => {
+  //   switch (position) {
+  //     case 'horizontal':
+  //       return styles.containerHorizontal;
+  //     case 'horizontal-reverse':
+  //       return styles.containerHorizontalReverse;
+  //     case 'vertical':
+  //       return styles.containerVertical;
+  //     default:
+  //       return styles.containerVertical;
+  //   }
+  // })();
 
   return (
     <View style={containerStyles}>
